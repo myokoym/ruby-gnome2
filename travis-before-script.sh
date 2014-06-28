@@ -23,7 +23,7 @@ if ! apt-cache show gir1.2-gstreamer-1.0 > /dev/null 2>&1; then
     sudo add-apt-repository --yes ppa:gstreamer-developers/ppa
 fi
 if ! apt-cache show gir1.2-clutter-gst-2.0 > /dev/null 2>&1; then
-    sudo add-apt-repository --yes ppa:gnome3-team/gnome3-staging
+    sudo add-apt-repository --yes ppa:ricotz/testing
 fi
 sudo apt-get update -qq
 sudo apt-get install -qq -y \
